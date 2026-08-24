@@ -1,0 +1,20 @@
+# v6 requirements — same venv as v5a (C:\AIML\efaai_v3)
+# All packages below are already installed in efaai_v3
+# Only install if using a fresh venv
+
+scikit-learn>=1.8.0
+imbalanced-learn>=0.14.1
+xgboost>=3.2.0
+sentence-transformers>=5.2.0
+transformers>=5.2.0
+torch>=2.10.0
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+scipy>=1.14.0
+joblib>=1.5.0
+shap>=0.49.0
+
+# Optional — install if language detection/translation is needed:
+# pip install langdetect deep-translator

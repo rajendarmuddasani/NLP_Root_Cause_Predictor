@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Virtual environments
+.venv/
+.venv_local/
+.venv_streamlit/
+.venv_v3/
+venv/
+ENV/
+
+# ============================================================
+# INTERNAL / PROPRIETARY DATA — never push to public remote
+# Real FA descriptions are confidential; use synthetic demo.
+# ============================================================
+data/v5a_eos_vs_noneos.csv
+data/v5b_eos_backend_other.csv
+data/v5c_all_classes.csv
+data/Customer_EOS_MOS_TOS*.csv
+data/Tabelle1.csv
+data/TC2_*.xlsx
+data/raw_v4/
+
+# Secrets and environment config
+.env
+*.env
+.env.*
+
+# Internal working session notes
+session2/
+
+# One-off helper/migration scripts (not part of public API)
+_save_v6_model.py
+
+# Internal development/debugging scripts
+dev/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# LARGE MODEL / BINARY FILES — never commit to GitLab
+# GitLab default file limit is 100 MB; these exceed it.
+# Store separately (shared drive / object storage / Git LFS).
+# ============================================================
+
+# PyTorch weights
+*.pth
+*.pt
+
+# Scikit-learn / XGBoost serialized models
+*.joblib
+*.pkl
+*.pickle
+
+# Safetensors (HuggingFace)
+*.safetensors
+
+# ============================================================
+# RAW / SOURCE DATA — do not commit sensitive customer data
+# ============================================================
+data/raw_v4/*.xlsx
+data/raw_v4/~$*
+data/*.xlsx
+data/*.xls
+# Processed CSVs are small and tracked (v5a_eos_vs_noneos.csv etc.)
+
+# ============================================================
+# STRAY / LEGACY FILES
+# ============================================================
+
+# Session chat logs — raw conversation dumps, not for repo
+session2/
+
+# Internal organisation-specific setup docs (not relevant to public audience)
+docs/INTERNAL_LLM_SETUP_GUIDE.md
+docs/COPILOT_INSTRUCTIONS.md
+docs/TASKS_LIST.md
+docs/v5a_presentation.html
+docs/v5a_presentation_v2.html
+
+# Duplicate notebook copies
+notebooks/*_docs_copy.ipynb
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp

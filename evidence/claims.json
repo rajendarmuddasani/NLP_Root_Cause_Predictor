@@ -1,0 +1,76 @@
+{
+  "project": "NLP Failure Intelligence and Routing",
+  "resume_claim": "Advanced an NLP-based failure intelligence and routing solution for semiconductor FA triage, scaling the corpus to 13.9K labeled descriptions and improving the best v7 ensemble to 83.5% accuracy / 0.773 Macro-F1; deployed a Streamlit internal UI with GPT-assisted explanations, threshold-based routing, and keyword-level rationale.",
+  "audited_date": "2026-08-23",
+  "claims": [
+    {
+      "claim": "13.9K labeled descriptions",
+      "status": "SUPPORTED",
+      "value": "13917 rows",
+      "source_file": "data/v5a_eos_vs_noneos.csv",
+      "note": "13,917 rows after length filter; EOS=3554, Non-EOS=10363"
+    },
+    {
+      "claim": "83.5% accuracy",
+      "status": "SUPPORTED",
+      "value": 0.8350,
+      "source_file": "results/v7c_ensemble_results.csv",
+      "source_row": "Soft Voting (w_tfidf=0.8)",
+      "notebook": "notebooks/v7c_ensemble.ipynb",
+      "model_artifact": "models/v6/best_model.joblib",
+      "split": "stratified 80/20 random_state=42",
+      "note": "0.8350 rounds to 83.5%; same split used throughout v6/v7c; group-isolated performance is lower (~73% MF1)"
+    },
+    {
+      "claim": "0.773 Macro-F1",
+      "status": "SUPPORTED",
+      "value": 0.7731,
+      "source_file": "results/v7c_ensemble_results.csv",
+      "source_row": "Soft Voting (w_tfidf=0.8)",
+      "notebook": "notebooks/v7c_ensemble.ipynb",
+      "model_artifact": "models/v6/best_model.joblib",
+      "split": "stratified 80/20 random_state=42",
+      "note": "0.7731 rounds to 0.773; v6 benchmark-confirmed champion is 0.7705 (v6_all_results.csv row 1)"
+    },
+    {
+      "claim": "v7 ensemble",
+      "status": "SUPPORTED",
+      "value": "Soft Voting TF-IDF + SentenceTransformer embeddings (w_tfidf=0.8)",
+      "source_file": "notebooks/v7c_ensemble.ipynb",
+      "note": "Combines Word+Char TF-IDF RF with all-MiniLM-L6-v2 semantic embeddings via soft voting"
+    },
+    {
+      "claim": "Streamlit internal UI deployed",
+      "status": "SUPPORTED_INTERNAL",
+      "value": "app/streamlit_app.py + run_streamlit.ps1",
+      "note": "Local internal Streamlit tool; runs on developer machine; not a production server"
+    },
+    {
+      "claim": "GPT-assisted explanations",
+      "status": "SUPPORTED",
+      "value": "app/streamlit_app.py GPT explanation panel",
+      "note": "Uses openai.ChatCompletion with OPENAI_API_KEY; generates 3-sentence rationale per prediction"
+    },
+    {
+      "claim": "threshold-based routing",
+      "status": "SUPPORTED",
+      "value": "Adjustable EOS probability threshold in Streamlit sidebar",
+      "source_file": "app/streamlit_app.py"
+    },
+    {
+      "claim": "keyword-level rationale",
+      "status": "SUPPORTED",
+      "value": "461-keyword list with EOS/Non-EOS frequency rates",
+      "source_file": "keywords/keyword_list_v5a.csv"
+    }
+  ],
+  "v6_benchmark_champion": {
+    "model": "E1: Word+Char TF-IDF + RF-SMOTE",
+    "macro_f1": 0.7705,
+    "accuracy": 0.8325,
+    "eos_f1": 0.6512,
+    "source": "results/v6_all_results.csv row 1 + reports/benchmark_summary.json"
+  },
+  "group_leakage_note": "v7a experiment confirms 518 notification groups span train/test boundary. Group-isolated MF1 drops to 0.7301. Disclosed for technical interview context.",
+  "do_not_mix": "J-drive NLP_Root_Cause_Predictor is a separate 10-class project with different corpus and metrics."
+}

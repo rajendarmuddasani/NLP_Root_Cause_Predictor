@@ -1,0 +1,75 @@
+{
+  "total_runs": 40,
+  "suites_parsed": [
+    "v6",
+    "v7a_group_split",
+    "v7b_crossval",
+    "v7c_ensemble"
+  ],
+  "per_suite": {
+    "v6": {
+      "n_runs": 30,
+      "best": {
+        "suite": "v6",
+        "model": "E1: TF-IDF word_plus_char",
+        "macro_f1": 0.7705,
+        "accuracy": 0.8325,
+        "eos_precision": 0.6949,
+        "eos_recall": 0.6127,
+        "eos_f1": 0.6512
+      }
+    },
+    "v7a_group_split": {
+      "n_runs": 3,
+      "best": {
+        "suite": "v7a_group_split",
+        "model": "Word+Char TF-IDF + RF-SMOTE (STANDARD split)",
+        "macro_f1": 0.7704900039089277,
+        "accuracy": 0.8324946081955428,
+        "eos_precision": 0.694888178913738,
+        "eos_recall": 0.6126760563380281,
+        "eos_f1": 0.6511976047904192
+      }
+    },
+    "v7b_crossval": {
+      "n_runs": 3,
+      "best": {
+        "suite": "v7b_crossval",
+        "model": "v6: word+char TF-IDF + SMOTE + RF",
+        "macro_f1": 0.7672789495567869,
+        "accuracy": 0.8283968368080519,
+        "eos_precision": 0.6796880618283444,
+        "eos_recall": 0.619606666799102,
+        "eos_f1": 0.6480343387870289,
+        "cv_macro_f1_mean": 0.7673,
+        "cv_macro_f1_std": 0.0047,
+        "cv_accuracy_mean": 0.8284,
+        "notebook": "notebooks/v7b_crossval.ipynb (executed 2026-08-23)"
+      }
+    },
+    "v7c_ensemble": {
+      "n_runs": 4,
+      "best": {
+        "suite": "v7c_ensemble",
+        "model": "Soft Voting (w_tfidf=0.8)",
+        "macro_f1": 0.7731,
+        "accuracy": 0.8350,
+        "eos_f1": 0.6546,
+        "split": "stratified 80/20 random_state=42",
+        "note": "TF-IDF RF + all-MiniLM-L6-v2 sentence embeddings; group-isolated performance ~73% MF1 (v7a)",
+        "notebook": "notebooks/v7c_ensemble.ipynb (executed)",
+        "artifact": "results/v7c_ensemble_results.csv"
+      }
+    }
+  },
+  "overall_best": {
+    "suite": "v7c_ensemble",
+    "model": "Soft Voting (w_tfidf=0.8)",
+    "macro_f1": 0.7731,
+    "accuracy": 0.8350,
+    "eos_f1": 0.6546,
+    "cv_corroboration": "v7b 5-fold CV: v6 base = 0.7673 ± 0.0047 (executed 2026-08-23)",
+    "group_isolated": "v7a group split: 0.7301 MF1 (honest generalisation bound)",
+    "resume_claim": "83.5% accuracy / 0.773 Macro-F1"
+  }
+}

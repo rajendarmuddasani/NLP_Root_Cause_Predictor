@@ -1,0 +1,201 @@
+Nn Notif Nr,PSI Failure Desc,label
+DEMO0158,overcurrent damage: metallization damage at CLK,EOS
+DEMO0014,"physical damage: CLK lead bent, handling issue",Non-EOS
+DEMO0161,"cratering at IO1 junction, EOS-like failure signature",EOS
+DEMO0021,"physical damage: VDDC lead bent, handling issue",Non-EOS
+DEMO0195,"high current event at RST, junction damage with voltage spike",EOS
+DEMO0173,"latch-up condition at OUT, oxide breakdown confirmed by EMMI",EOS
+DEMO0015,"pin IO2 missing solder, cold joint observed",Non-EOS
+DEMO0167,"pin OUT burnt due to transient event, dielectric breakdown",EOS
+DEMO0118,"delamination at CLK, thermal cycling damage",Non-EOS
+DEMO0003,"voltage spike at VCC, not related to electrical overstress",Non-EOS
+DEMO0164,"pin VCC burnt due to current surge, dielectric breakdown",EOS
+DEMO0171,"high current event at IO1, melting with ESD pulse",EOS
+DEMO0114,"package crack near IN, thermomechanical fatigue",Non-EOS
+DEMO0050,"open circuit at OUT, wire bond lift-off",Non-EOS
+DEMO0072,"corrosion at VDDC contact, humidity ingress",Non-EOS
+DEMO0094,"pin IO2 missing solder, cold joint observed",Non-EOS
+DEMO0163,"component failure: cratering on IO2, overstress indication",EOS
+DEMO0104,"intermittent open at GND, contamination",Non-EOS
+DEMO0096,"corrosion at CLK contact, humidity ingress",Non-EOS
+DEMO0185,overcurrent damage: oxide breakdown at OUT,EOS
+DEMO0036,"open circuit at VDDC, wire bond lift-off",Non-EOS
+DEMO0045,"package crack near EN, thermomechanical fatigue",Non-EOS
+DEMO0002,"intermittent open at GND, contamination",Non-EOS
+DEMO0074,"pin CLK missing solder, cold joint observed",Non-EOS
+DEMO0187,"short circuit at GND pin, cratering observed under EMMI",EOS
+DEMO0047,"transient event at CLK, not related to electrical overstress",Non-EOS
+DEMO0103,"physical damage: OUT lead bent, handling issue",Non-EOS
+DEMO0190,EOS event: RST shows oxide breakdown after voltage spike,EOS
+DEMO0170,"short circuit at VDDC pin, cratering observed under cross-section",EOS
+DEMO0027,"crack in passivation layer at IN, voltage spike",Non-EOS
+DEMO0109,"current surge at OUT, not related to electrical overstress",Non-EOS
+DEMO0135,"bond wire open on EN, mechanical stress fracture",Non-EOS
+DEMO0054,"physical damage: IO1 lead bent, handling issue",Non-EOS
+DEMO0078,"voltage spike at IN, not related to electrical overstress",Non-EOS
+DEMO0133,"bond wire open on IN, mechanical stress fracture",Non-EOS
+DEMO0016,"intermittent open at IN, contamination",Non-EOS
+DEMO0007,"current surge at CLK, not related to electrical overstress",Non-EOS
+DEMO0067,"physical damage: EN lead bent, handling issue",Non-EOS
+DEMO0025,"intermittent open at VDDC, contamination",Non-EOS
+DEMO0095,"open circuit at IN, wire bond lift-off",Non-EOS
+DEMO0079,"intermittent open at IN, contamination",Non-EOS
+DEMO0055,"reverse bias at VCC, not related to electrical overstress",Non-EOS
+DEMO0059,"package crack near OUT, thermomechanical fatigue",Non-EOS
+DEMO0028,"open circuit at IO2, wire bond lift-off",Non-EOS
+DEMO0147,"latch-up condition at EN, metallization damage confirmed by TEM",EOS
+DEMO0141,"pin EN burnt due to ESD pulse, dielectric breakdown",EOS
+DEMO0139,"bond wire open on IO2, mechanical stress fracture",Non-EOS
+DEMO0193,ESD pulse at IO2 caused severe oxide breakdown,EOS
+DEMO0029,"voltage spike at VDDC, not related to electrical overstress",Non-EOS
+DEMO0100,"intermittent open at EN, contamination",Non-EOS
+DEMO0108,"physical damage: RST lead bent, handling issue",Non-EOS
+DEMO0172,EOS event: EN shows junction damage after current surge,EOS
+DEMO0134,"corrosion at VCC contact, humidity ingress",Non-EOS
+DEMO0065,"delamination at IO1, thermal cycling damage",Non-EOS
+DEMO0145,"cratering at RST junction, EOS-like failure signature",EOS
+DEMO0052,"open circuit at GND, wire bond lift-off",Non-EOS
+DEMO0165,"short circuit at VCC pin, junction damage observed under nanoprobe",EOS
+DEMO0111,"open circuit at OUT, wire bond lift-off",Non-EOS
+DEMO0120,"pin GND missing solder, cold joint observed",Non-EOS
+DEMO0102,"reverse bias at EN, not related to electrical overstress",Non-EOS
+DEMO0017,"current surge at IO2, not related to electrical overstress",Non-EOS
+DEMO0144,"high current event at RST, metallization damage with transient event",EOS
+DEMO0066,"crack in passivation layer at OUT, voltage spike",Non-EOS
+DEMO0137,"crack in passivation layer at CLK, ESD pulse",Non-EOS
+DEMO0076,"voltage spike at IO2, not related to electrical overstress",Non-EOS
+DEMO0064,"open circuit at CLK, wire bond lift-off",Non-EOS
+DEMO0162,EOS event: IN shows junction damage after reverse bias,EOS
+DEMO0169,"high current event at RST, oxide breakdown with voltage spike",EOS
+DEMO0156,"component failure: junction damage on IO2, overstress indication",EOS
+DEMO0023,"package crack near RST, thermomechanical fatigue",Non-EOS
+DEMO0174,"latch-up condition at IO2, junction damage confirmed by SEM",EOS
+DEMO0196,overcurrent damage: oxide breakdown at OUT,EOS
+DEMO0125,"pin OUT missing solder, cold joint observed",Non-EOS
+DEMO0068,"open circuit at IO1, wire bond lift-off",Non-EOS
+DEMO0032,"delamination at VDDC, thermal cycling damage",Non-EOS
+DEMO0160,"component failure: melting on CLK, overstress indication",EOS
+DEMO0091,"intermittent open at EN, contamination",Non-EOS
+DEMO0048,"bond wire open on GND, mechanical stress fracture",Non-EOS
+DEMO0046,"voltage spike at IO1, not related to electrical overstress",Non-EOS
+DEMO0177,"high current event at VDDC, melting with transient event",EOS
+DEMO0008,"delamination at GND, thermal cycling damage",Non-EOS
+DEMO0042,"bond wire open on GND, mechanical stress fracture",Non-EOS
+DEMO0006,"package crack near IO2, thermomechanical fatigue",Non-EOS
+DEMO0189,reverse bias at IN caused severe oxide breakdown,EOS
+DEMO0157,overcurrent damage: metallization damage at IN,EOS
+DEMO0022,"open circuit at IN, wire bond lift-off",Non-EOS
+DEMO0057,"pin IO2 missing solder, cold joint observed",Non-EOS
+DEMO0090,"open circuit at CLK, wire bond lift-off",Non-EOS
+DEMO0153,"high current event at IO1, oxide breakdown with transient event",EOS
+DEMO0013,"corrosion at IO1 contact, humidity ingress",Non-EOS
+DEMO0056,"crack in passivation layer at RST, transient event",Non-EOS
+DEMO0143,overcurrent damage: melting at CLK,EOS
+DEMO0194,reverse bias at GND caused severe metallization damage,EOS
+DEMO0037,"intermittent open at IO2, contamination",Non-EOS
+DEMO0168,"metallization damage at VCC junction, EOS-like failure signature",EOS
+DEMO0197,overcurrent damage: junction damage at CLK,EOS
+DEMO0192,"high current event at VDDC, metallization damage with transient event",EOS
+DEMO0009,"delamination at CLK, thermal cycling damage",Non-EOS
+DEMO0116,"crack in passivation layer at IN, current surge",Non-EOS
+DEMO0005,"pin IN missing solder, cold joint observed",Non-EOS
+DEMO0188,"short circuit at IO2 pin, junction damage observed under TEM",EOS
+DEMO0180,"component failure: junction damage on IO2, overstress indication",EOS
+DEMO0152,"pin IN burnt due to ESD pulse, dielectric breakdown",EOS
+DEMO0092,"package crack near RST, thermomechanical fatigue",Non-EOS
+DEMO0081,"crack in passivation layer at CLK, reverse bias",Non-EOS
+DEMO0041,"package crack near IN, thermomechanical fatigue",Non-EOS
+DEMO0148,"high current event at IO2, oxide breakdown with current surge",EOS
+DEMO0191,"catastrophic metallization damage at RST, surge event suspected",EOS
+DEMO0087,"delamination at IO2, thermal cycling damage",Non-EOS
+DEMO0043,"bond wire open on CLK, mechanical stress fracture",Non-EOS
+DEMO0110,"bond wire open on GND, mechanical stress fracture",Non-EOS
+DEMO0011,"open circuit at IO2, wire bond lift-off",Non-EOS
+DEMO0123,"reverse bias at OUT, not related to electrical overstress",Non-EOS
+DEMO0051,"crack in passivation layer at OUT, voltage spike",Non-EOS
+DEMO0155,"high current event at IO2, cratering with transient event",EOS
+DEMO0080,"open circuit at VDDC, wire bond lift-off",Non-EOS
+DEMO0044,"crack in passivation layer at OUT, ESD pulse",Non-EOS
+DEMO0034,"delamination at IO2, thermal cycling damage",Non-EOS
+DEMO0101,"open circuit at VCC, wire bond lift-off",Non-EOS
+DEMO0061,"package crack near GND, thermomechanical fatigue",Non-EOS
+DEMO0136,"physical damage: GND lead bent, handling issue",Non-EOS
+DEMO0020,"delamination at IO1, thermal cycling damage",Non-EOS
+DEMO0084,"reverse bias at VCC, not related to electrical overstress",Non-EOS
+DEMO0112,"corrosion at OUT contact, humidity ingress",Non-EOS
+DEMO0053,"corrosion at IO1 contact, humidity ingress",Non-EOS
+DEMO0019,"current surge at IO2, not related to electrical overstress",Non-EOS
+DEMO0093,"package crack near IN, thermomechanical fatigue",Non-EOS
+DEMO0199,"oxide breakdown at IO2 junction, EOS-like failure signature",EOS
+DEMO0150,transient event at CLK caused severe cratering,EOS
+DEMO0132,"crack in passivation layer at RST, voltage spike",Non-EOS
+DEMO0113,"open circuit at IN, wire bond lift-off",Non-EOS
+DEMO0026,"transient event at RST, not related to electrical overstress",Non-EOS
+DEMO0085,"pin IO2 missing solder, cold joint observed",Non-EOS
+DEMO0129,"bond wire open on GND, mechanical stress fracture",Non-EOS
+DEMO0033,"package crack near CLK, thermomechanical fatigue",Non-EOS
+DEMO0010,"physical damage: IN lead bent, handling issue",Non-EOS
+DEMO0127,"current surge at VDDC, not related to electrical overstress",Non-EOS
+DEMO0159,"pin IO2 burnt due to voltage spike, dielectric breakdown",EOS
+DEMO0146,"pin EN burnt due to transient event, dielectric breakdown",EOS
+DEMO0098,"reverse bias at CLK, not related to electrical overstress",Non-EOS
+DEMO0122,"voltage spike at RST, not related to electrical overstress",Non-EOS
+DEMO0082,"pin GND missing solder, cold joint observed",Non-EOS
+DEMO0012,"pin GND missing solder, cold joint observed",Non-EOS
+DEMO0106,"crack in passivation layer at IO1, current surge",Non-EOS
+DEMO0060,"bond wire open on IN, mechanical stress fracture",Non-EOS
+DEMO0176,"high current event at VDDC, cratering with current surge",EOS
+DEMO0062,"package crack near IO1, thermomechanical fatigue",Non-EOS
+DEMO0175,EOS event: GND shows cratering after current surge,EOS
+DEMO0083,"package crack near VDDC, thermomechanical fatigue",Non-EOS
+DEMO0179,"pin IO2 burnt due to voltage spike, dielectric breakdown",EOS
+DEMO0097,"corrosion at IO2 contact, humidity ingress",Non-EOS
+DEMO0140,"pin GND missing solder, cold joint observed",Non-EOS
+DEMO0178,EOS event: OUT shows metallization damage after voltage spike,EOS
+DEMO0086,"bond wire open on OUT, mechanical stress fracture",Non-EOS
+DEMO0089,"crack in passivation layer at CLK, transient event",Non-EOS
+DEMO0182,"melting at GND junction, EOS-like failure signature",EOS
+DEMO0138,"corrosion at VDDC contact, humidity ingress",Non-EOS
+DEMO0115,"intermittent open at OUT, contamination",Non-EOS
+DEMO0039,"delamination at OUT, thermal cycling damage",Non-EOS
+DEMO0126,"physical damage: VCC lead bent, handling issue",Non-EOS
+DEMO0149,EOS event: EN shows oxide breakdown after reverse bias,EOS
+DEMO0151,"catastrophic metallization damage at IO2, surge event suspected",EOS
+DEMO0077,"intermittent open at IO2, contamination",Non-EOS
+DEMO0073,"open circuit at VDDC, wire bond lift-off",Non-EOS
+DEMO0001,"corrosion at VCC contact, humidity ingress",Non-EOS
+DEMO0069,"delamination at GND, thermal cycling damage",Non-EOS
+DEMO0130,"intermittent open at VCC, contamination",Non-EOS
+DEMO0088,"pin RST missing solder, cold joint observed",Non-EOS
+DEMO0183,EOS event: EN shows metallization damage after transient event,EOS
+DEMO0071,"open circuit at VCC, wire bond lift-off",Non-EOS
+DEMO0018,"delamination at VCC, thermal cycling damage",Non-EOS
+DEMO0035,"package crack near GND, thermomechanical fatigue",Non-EOS
+DEMO0186,"short circuit at RST pin, metallization damage observed under cross-section",EOS
+DEMO0154,"component failure: oxide breakdown on OUT, overstress indication",EOS
+DEMO0049,"delamination at GND, thermal cycling damage",Non-EOS
+DEMO0099,"intermittent open at IO1, contamination",Non-EOS
+DEMO0038,"pin IN missing solder, cold joint observed",Non-EOS
+DEMO0198,reverse bias at VCC caused severe cratering,EOS
+DEMO0117,"physical damage: GND lead bent, handling issue",Non-EOS
+DEMO0063,"package crack near GND, thermomechanical fatigue",Non-EOS
+DEMO0121,"open circuit at OUT, wire bond lift-off",Non-EOS
+DEMO0124,"ESD pulse at RST, not related to electrical overstress",Non-EOS
+DEMO0107,"bond wire open on IO1, mechanical stress fracture",Non-EOS
+DEMO0070,"intermittent open at OUT, contamination",Non-EOS
+DEMO0181,"high current event at IN, cratering with current surge",EOS
+DEMO0131,"pin OUT missing solder, cold joint observed",Non-EOS
+DEMO0075,"physical damage: IO2 lead bent, handling issue",Non-EOS
+DEMO0184,reverse bias at IO2 caused severe oxide breakdown,EOS
+DEMO0128,"open circuit at VCC, wire bond lift-off",Non-EOS
+DEMO0040,"pin IO1 missing solder, cold joint observed",Non-EOS
+DEMO0166,"melting at OUT junction, EOS-like failure signature",EOS
+DEMO0031,"crack in passivation layer at IN, current surge",Non-EOS
+DEMO0119,"intermittent open at IO1, contamination",Non-EOS
+DEMO0030,"crack in passivation layer at IN, ESD pulse",Non-EOS
+DEMO0058,"open circuit at VCC, wire bond lift-off",Non-EOS
+DEMO0024,"open circuit at OUT, wire bond lift-off",Non-EOS
+DEMO0105,"package crack near CLK, thermomechanical fatigue",Non-EOS
+DEMO0200,"short circuit at EN pin, cratering observed under cross-section",EOS
+DEMO0004,"pin IN missing solder, cold joint observed",Non-EOS
+DEMO0142,"catastrophic oxide breakdown at IN, surge event suspected",EOS

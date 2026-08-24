@@ -1,0 +1,101 @@
+class,keyword,mean_abs_shap
+EOS,short,1.0
+EOS,shiroishi,0.06073936
+EOS,bcmw reported,0.05209109
+EOS,vddd,0.02364294
+EOS,resistance abnormal,0.01456959
+EOS,failure analysis,0.01358364
+EOS,circuit,0.01203512
+EOS,gnd,0.01127562
+EOS,driving,0.00870582
+EOS,visteon,0.00837225
+EOS,between,0.00816933
+EOS,proj,0.00808175
+EOS,vext,0.00784663
+EOS,line,0.00633107
+EOS,vddp3,0.00586438
+EOS,innolux,0.00562901
+EOS,w20,0.00557987
+EOS,factory,0.00542704
+EOS,eos,0.00527097
+EOS,request,0.00504887
+EOS,lle photovoltaikanlag,0.00485232
+EOS,vssd,0.00473573
+EOS,damaged,0.00468484
+EOS,performed,0.00433707
+EOS,short circuit,0.00432405
+EOS,anomaly,0.00397861
+EOS,igbt,0.00396169
+EOS,resistance,0.00395883
+EOS,gunze,0.00385675
+EOS,vdd,0.00353758
+EOS,s6j3001lsjsc1000b,0.00338859
+EOS,low impedance,0.00333328
+EOS,driving proc,0.00299166
+EOS,impedance,0.00284012
+EOS,btw,0.00283806
+EOS,pcs,0.00276331
+EOS,level,0.00258724
+EOS,gse1,0.00253919
+EOS,abnormal display,0.00249533
+EOS,caea,0.00248849
+EOS,gte1,0.00246861
+EOS,low,0.00227292
+EOS,n2e1,0.0021489
+EOS,vssd short,0.00214705
+EOS,hai,0.00212734
+EOS,ground,0.00207386
+EOS,between pin,0.00196763
+EOS,return,0.00189679
+EOS,pin,0.00186309
+EOS,power,0.00181528
+Non-EOS,error,1.0
+Non-EOS,hakuto,0.96772374
+Non-EOS,wire bond,0.26870079
+Non-EOS,program,0.21331789
+Non-EOS,current,0.18728387
+Non-EOS,ref,0.18270836
+Non-EOS,denso,0.17865301
+Non-EOS,reset,0.1765831
+Non-EOS,board,0.17513531
+Non-EOS,electric wiring,0.17512779
+Non-EOS,faulty,0.17239938
+Non-EOS,anschlussbeinchen steht,0.15956844
+Non-EOS,once,0.15936041
+Non-EOS,tianjin denso,0.15364837
+Non-EOS,signal,0.13295599
+Non-EOS,crack,0.1287026
+Non-EOS,boar,0.12412923
+Non-EOS,bent,0.1206059
+Non-EOS,inspection,0.1182579
+Non-EOS,lifted,0.11218411
+Non-EOS,does,0.10895023
+Non-EOS,bosch,0.09157114
+Non-EOS,bei,0.07521202
+Non-EOS,anschlussbeinchen,0.06795724
+Non-EOS,output abnormal,0.06595609
+Non-EOS,communication,0.05400925
+Non-EOS,long,0.05361821
+Non-EOS,aodl,0.05344447
+Non-EOS,open failure,0.05174202
+Non-EOS,lockstep,0.05067261
+Non-EOS,gsae,0.04487494
+Non-EOS,bit,0.04426666
+Non-EOS,open,0.04418814
+Non-EOS,issue suspected,0.0434092
+Non-EOS,pins,0.04146964
+Non-EOS,systems,0.04099572
+Non-EOS,spi,0.04007218
+Non-EOS,da202204,0.03978425
+Non-EOS,bosch ref,0.03879177
+Non-EOS,ecu,0.03866932
+Non-EOS,mb91f526khepmc,0.03816873
+Non-EOS,oscillator,0.03791119
+Non-EOS,display,0.0379008
+Non-EOS,mb96f615rbpmc,0.0375994
+Non-EOS,display error,0.03609988
+Non-EOS,bmw,0.03500828
+Non-EOS,good day,0.03482211
+Non-EOS,incoming,0.03478772
+Non-EOS,dark,0.0346978
+Non-EOS,ate,0.03296604

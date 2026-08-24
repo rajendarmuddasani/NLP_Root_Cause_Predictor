@@ -1,0 +1,25 @@
+{
+  "version": "v6",
+  "model": "Word+Char TF-IDF + RF-SMOTE",
+  "algorithm": "TF-IDF word(1,2)+char_wb(3,5) \u2192 SMOTE \u2192 RF(200)",
+  "tfidf_word_features": 3000,
+  "tfidf_char_features": 3000,
+  "total_features": 6000,
+  "train_rows": 11128,
+  "test_rows": 2782,
+  "macro_f1": 0.7731,
+  "accuracy": 0.835,
+  "eos_precision": 0.7027,
+  "eos_recall": 0.6127,
+  "eos_f1": 0.6546,
+  "delta_vs_v5a": 0.0172,
+  "classes": [
+    "EOS",
+    "Non-EOS"
+  ],
+  "eos_class_index": 0,
+  "split": "stratified 80/20 random_state=42",
+  "data_source": "data/v5a_eos_vs_noneos.csv",
+  "train_time_s": 27.0,
+  "uses_dual_tfidf": true
+}
